@@ -1,3 +1,6 @@
+// This php function and filter will remove the URL and Links from any text area within a Contact form.
+
+
 add_filter('gform_validation', 'reject_urls_in_textarea', 10, 2);
 
 function reject_urls_in_textarea($validation_result)
