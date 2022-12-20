@@ -1,4 +1,4 @@
-<script>
+
 
 // This php function and filter will remove the URL and Links from any text area within a Contact form.
 
@@ -48,4 +48,4 @@ function reject_urls_in_textarea($validation_result)
 	//Return validated result
 	return $validation_result;
 }
-</script>
+
